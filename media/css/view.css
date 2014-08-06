@@ -55,9 +55,9 @@
 #myTable
 {
 	font: 20pt Arial;
-	position: absolute;
 	width: 97%;
 	height: 100%;
+	margin: 0 auto;
 	text-align: center;
 }
 /* table end */
@@ -128,6 +128,26 @@ p
 	height: 7.3%;
 	right: 0.25%;
 	box-shadow: 0px 0px 3px Gray;
+	font: 160% Arial;
+	font-weight: bolder;
+	color: white;
+}
+
+.bar img
+{
+	width: 3%;
+	height: 60%;
+}
+
+.bar span
+{
+	color: yellow;
+}
+
+.bar-content
+{
+	position: fixed;
+	padding: 0.7% 0 0 0;
 }
 /* bar end */
 
@@ -169,15 +189,30 @@ p
 	top: 88.9%;
 	right: 0.25%;
 	width: 41.6%;
+	text-align: center;
 	height: 10.1%;
 	box-shadow: 0px 0px 5px Gray;
+}
+
+.trend img
+{
+	width: 15%;
+	height: 25%;
+}
+
+.trend span
+{
+	font: 130% Arial;
+	font-weight: bolder;
 }
 
 .trend p
 {
 	display: inline-block;
 	width: 19.3%;
+	color: white;
 	height: 100%;
+	font: 120% Arial;
 	background-color: green;
 	box-shadow: 0px 0px 5px Gray;
 }
